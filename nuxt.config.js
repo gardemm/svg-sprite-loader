@@ -21,9 +21,6 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    /*
-    ** Run ESLint on save
-    */
     extend (config, ctx) {
       if (ctx.dev && ctx.isClient) {
         config.module.rules.push({
