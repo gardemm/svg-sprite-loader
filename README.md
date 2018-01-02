@@ -10,6 +10,7 @@ $ npm install
 
 # serve with hot reload at localhost:3000
 $ npm run dev
+```
 
 ### pages/index.vue
 ```
@@ -22,6 +23,7 @@ $ npm run dev
     import fb from './../assets/svg/fb.svg'
 </script>
 ```
+
 ### nuxt.config.js
 ```
     config.module.rules.push({
